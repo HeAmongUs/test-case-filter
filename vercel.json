@@ -1,0 +1,8 @@
+{
+  "rewrites": [
+    {
+      "source": "/proxy/:match*",
+      "destination": "http://voodoo-test-case.vercel.app/:match*"
+    }
+  ]
+}
